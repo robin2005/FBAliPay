@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name             = 'FBAliPay'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'FBAliPay 是 AlipaySDK 的帮助类库。' 
 
   s.description      = <<-DESC
