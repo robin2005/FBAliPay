@@ -22,10 +22,10 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "8.0" 
   s.source       = { :git => "https://github.com/robin2005/FBAliPay.git", :tag => "#{s.version}" }  
-  s.resources = 'AliPaySDK/AlipaySDK.bundle'    
+  s.resources = 'SDK/AlipaySDK.bundle'    
   s.frameworks = "Foundation", "UIKit", "SystemConfiguration", "CoreTelephony", "QuartzCore", "CoreText", "CoreGraphics", "CFNetwork", "CoreMotion"
   s.libraries  =  'z','c++'   
   s.requires_arc = true
-  s.vendored_frameworks = 'AliPaySDK/AlipaySDK.framework'
+  s.vendored_frameworks = 'SDK/AlipaySDK.framework'
 
 end
