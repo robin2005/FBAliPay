@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name             = 'FBAliPay'
-  s.version          = '1.0.1'
+  s.version          = '1.0.0'
   s.summary          = 'FBAliPay 是 AlipaySDK 的帮助类库。' 
 
   s.description      = <<-DESC
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   s.frameworks = "Foundation", "UIKit", "SystemConfiguration", "CoreTelephony", "QuartzCore", "CoreText", "CoreGraphics", "CFNetwork", "CoreMotion"
   s.libraries  =  'z','c++'   
   s.requires_arc = true
-  s.vendored_frameworks = 'SDK/AlipaySDK.framework','SDK/openssl.framework'
+  s.vendored_frameworks = 'SDK/AlipaySDK.framework'
   s.resources = 'SDK/AlipaySDK.bundle'    
 
 end
